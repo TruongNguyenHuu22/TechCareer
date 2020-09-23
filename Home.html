@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./frontend/css/customize.css">
+    <link rel="stylesheet" type="text/css" href="./frontend/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./frontend/css/Home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <title>Career</title>
+</head>
+
+<body>
+    <section id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">TechCareer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="Home.html">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./PostAJob.html">POST A JOB</a>
+                </div>
+                <div class="navbar-nav right-home">
+                    <a class="nav-link" href="#">User</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <div class="Find-out">
+        <div class="top-infor">
+            <div class="container">
+                <div class="number-job">
+                    <h1 style="color:white">Tìm việc IT, nhớ đến TechCareer</h1>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+                            <!-- Search form -->
+                            <input class="form-control" type="text" placeholder="Keywords" aria-label="Search">
+                        </div>
+                        <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+                            <select class="form-control">
+                                <option>All Regions</option>
+                                <option>Ho Chi Minh</option>
+                                <option>Da Nang</option>
+                                <option>Ha Noi</option>
+                                <option>Japan</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+                            <select class="form-control">
+                                <option>All Categories</option>
+                                <option>.NET</option>
+                                <option>Administrator System</option>
+                                <option>Adobe Photoshop</option>
+                                <option>Agile</option>
+                                <option>AI Engineer</option>
+                                <option>Android</option>
+                                <option>Angular</option>
+                                <option>Angular JS</option>
+                                <option>App Developer</option>
+                                <option>Back-End</option>
+                                <option>Front-end</option>
+                                <option>BrSE</option>
+                                <option>C/C++</option>
+                                <option>C#</option>
+                                <option>Java</option>
+                                <option>JavaScript</option>
+                                <option>Jquery</option>
+                                <option>MySQL</option>
+                                <option>N1</option>
+                                <option>N2</option2>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                <div class="col-lg-12 col-md-12 number-job">
+                    <h3 style="color:white">We have 951 job offers for you!</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="line"></div>
+            <div class="popular-categories">
+                <h3 style="color:white">Popular categories</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="row">
+                                <div class="detail">
+                                    <img src="./img/Ruby.png" alt="ruby" onclick="myFunction(this);" />
+                                    <p>RUBY(33)</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="row">
+                                <div class="detail">
+                                    <img src="./img/php.PNG" alt="" />
+                                    <p>PHP(170)</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="row">
+                                <div class="detail">
+                                    <img src="./img/NET.PNG" alt="" />
+                                    <p>.NET(83)</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="row">
+                                <div class="detail">
+                                    <img src="./img/Mobile.PNG" alt="" />
+                                    <p>MOBILE DEV (67)</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="row">
+                                <div class="detail">
+                                    <img src="./img/JS.PNG" alt="" />
+                                    <p>JAVASCRIPT(120)</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="row">
+                                <div class="detail">
+                                    <img src="./img/Java.PNG" alt="" />
+                                    <p>JAVA(134)</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="row">
+                                <div class="detail">
+                                    <img src="./img/CSharp.PNG" alt="" />
+                                    <p>C#(51)</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="row">
+                                <div class="detail">
+                                    <img src="./img/AI.PNG" alt="" />
+                                    <p>AI ENGINEER(9)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="top-infor">
+            <div class="container Main-job">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div>
+                            <h3 style="color: white; padding: 20px 20px;">Recent Jobs</h3>
+                        </div>
+                        <div class="Module">
+                            <div class="row">
+                                <div class="Logo">
+                                    <img src="img/fpt-software-logo.png" alt="#">
+                                </div>
+                                <div class="Infor-job">
+                                    <div class="Job-position col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <!-- <a href="#" style="color:#000000; text-decoration:none"> <h6>【Remote/Malaysia】2 Senior PHP Developer / Full Stack Developer</h6></a> -->
+                                        <a target="_blank" data-controller="utm-tracking" href="#"
+                                            style="text-decoration:none">Lead/Sr. Pen Tester (Security, QA QC)</a>
+                                    </div>
+                                    <br>
+                                    <div class="Policy .d-none .d-sm-block">
+                                        <li><b>Fast paced working environment</b></li>
+                                        <li><b>Private health care for family</b></li>
+                                        <li><b>Business trips in Australia</b></li><br>
+                                    </div>
+                                    <div class="Job-salary col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <span class="ws-meta-company-name"><i class="fa fa-briefcase"></i>
+                                            VIBBIDI</span>
+                                        <span class="ws-meta-job-location"><i class="fa fa-map-marker"></i> Ha
+                                            Noi</span>
+                                        <span class="ws-meta-salary"> <i class="fa fa-money"></i> 2000 </span><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Module">
+                            <div class="row">
+                                <div class="Logo">
+                                    <img src="img/hytek-software-logo.png">
+                                </div>
+                                <div class="Infor-job">
+                                    <div class="Job-position">
+                                        <!-- <a href="#" style="color:#000000; text-decoration:none"> <h6>【Remote/Malaysia】2 Senior PHP Developer / Full Stack Developer</h6></a> -->
+                                        <a target="_blank" data-controller="utm-tracking" href="#"
+                                            style="text-decoration:none">Junior QA Engineer (Manual Tester/QA QC)</a>
+                                    </div>
+                                    <br>
+                                    <div class="Policy">
+                                        <li><b>Premium health care check</b></li>
+                                        <li><b>Private health care</b></li>
+                                        <li><b>Extra benefits up to 350 USD</b></li><br>
+                                    </div>
+                                    <div class="Job-salary">
+                                        <span class="ws-meta-company-name"><i class="fa fa-briefcase"></i>
+                                            VIBBIDI</span>
+                                        <span class="ws-meta-job-location"><i class="fa fa-map-marker"></i> Ha
+                                            Noi</span>
+                                        <span class="ws-meta-salary"> <i class="fa fa-money"></i> 2000 </span><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Module">
+                            <div class="row">
+                                <div class="Logo">
+                                    <img src="img/LogoDirox_new.png">
+                                </div>
+                                <div class="Infor-job">
+                                    <div class="Job-position">
+                                        <!-- <a href="#" style="color:#000000; text-decoration:none"> <h6>【Remote/Malaysia】2 Senior PHP Developer / Full Stack Developer</h6></a> -->
+                                        <a target="_blank" data-controller="utm-tracking" href="#"
+                                            style="text-decoration:none">Senior QA Automation Tester (SQL)</a>
+                                    </div>
+                                    <br>
+                                    <!-- <div class="Policy">
+                                        <li><b>Fast paced working environment</b></li>
+                                        <li><b>Private health care for family</b></li>
+                                        <li><b>Business trips in Australia</b></li><br>
+                                    </div> -->
+                                    <div class="Job-salary">
+                                        <span class="ws-meta-company-name"><i class="fa fa-briefcase"></i>
+                                            VIBBIDI</span>
+                                        <span class="ws-meta-job-location"><i class="fa fa-map-marker"></i> Ha
+                                            Noi</span>
+                                        <span class="ws-meta-salary"> <i class="fa fa-money"></i> 2000 </span><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Module">
+                            <div class="row">
+                                <div class="Logo">
+                                    <img src="img/elisoft-logo.png">
+                                </div>
+                                <div class="Infor-job">
+                                    <div class="Job-position">
+                                        <!-- <a href="#" style="color:#000000; text-decoration:none"> <h6>【Remote/Malaysia】2 Senior PHP Developer / Full Stack Developer</h6></a> -->
+                                        <a target="_blank" data-controller="utm-tracking" href="#"
+                                            style="text-decoration:none">Automation QA/QC/Tester (Java, Selenium)</a>
+                                    </div>
+                                    <br>
+                                    <!-- <div class="Policy">
+                                        <li><b>Fast paced working environment</b></li>
+                                        <li><b>Private health care for family</b></li>
+                                        <li><b>Business trips in Australia</b></li><br>
+                                    </div> -->
+                                    <div class="Job-salary">
+                                        <span class="ws-meta-company-name"><i class="fa fa-briefcase"></i>
+                                            VIBBIDI</span>
+                                        <span class="ws-meta-job-location"><i class="fa fa-map-marker"></i> Ha
+                                            Noi</span>
+                                        <span class="ws-meta-salary"> <i class="fa fa-money"></i> 2000 </span><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Module">
+                            <div class="row">
+                                <div class="Logo">
+                                    <img src="img/LOGO.png">
+                                </div>
+                                <div class="Infor-job">
+                                    <div class="Job-position">
+                                        <!-- <a href="#" style="color:#000000; text-decoration:none"> <h6>【Remote/Malaysia】2 Senior PHP Developer / Full Stack Developer</h6></a> -->
+                                        <a target="_blank" data-controller="utm-tracking" href="#"
+                                            style="text-decoration:none">QC Engineer (Tester)</a>
+                                    </div>
+                                    <br>
+                                    <!-- <div class="Policy">
+                                        <li><b>Fast paced working environment</b></li>
+                                        <li><b>Private health care for family</b></li>
+                                        <li><b>Business trips in Australia</b></li><br>
+                                    </div> -->
+                                    <div class="Job-salary">
+                                        <span class="ws-meta-company-name"><i class="fa fa-briefcase"></i>
+                                            VIBBIDI</span>
+                                        <span class="ws-meta-job-location"><i class="fa fa-map-marker"></i> Ha
+                                            Noi</span>
+                                        <span class="ws-meta-salary"> <i class="fa fa-money"></i> 2000 </span><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Module">
+                            <div class="row">
+                                <div class="Logo">
+                                    <img src="img//VDC-LOGO-SQUARE.png">
+                                </div>
+                                <div class="Infor-job">
+                                    <div class="Job-position">
+                                        <!-- <a href="#" style="color:#000000; text-decoration:none"> <h6>【Remote/Malaysia】2 Senior PHP Developer / Full Stack Developer</h6></a> -->
+                                        <a target="_blank" data-controller="utm-tracking" href="#"
+                                            style="text-decoration:none">Junior / Senior QC Engineers (Tester)</a>
+                                    </div>
+                                    <br>
+                                    <!-- <div class="Policy">
+                                        <li><b>Fast paced working environment</b></li>
+                                        <li><b>Private health care for family</b></li>
+                                        <li><b>Business trips in Australia</b></li><br>
+                                    </div> -->
+                                    <div class="Job-salary">
+                                        <span class="ws-meta-company-name"><i class="fa fa-briefcase"></i>
+                                            VIBBIDI</span>
+                                        <span class="ws-meta-job-location"><i class="fa fa-map-marker"></i> Ha
+                                            Noi</span>
+                                        <span class="ws-meta-salary"> <i class="fa fa-money"></i> 2000 </span><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-end">
+                              <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                              </li>
+                            </ul>
+                          </nav>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div>
+                            <h3 style="color: white; padding: 20px 20px;">Job Spotlight</h3>
+                        </div>
+                        <div class="job-hot">
+                            <div class="job-spotlight">
+                                <a href="#" style="color:#000000; text-decoration:none">
+                                    <h4>【HN/ 2000$】Android Developer <span class="job-type android">Android</span></h4>
+                                </a>
+                                <span class="ws-meta-company-name"><i class="fa fa-briefcase"></i> VIBBIDI</span>
+                                <span class="ws-meta-job-location"><i class="fa fa-map-marker"></i> Ha Noi</span>
+                                <span class="ws-meta-salary"> <i class="fa fa-money"></i> 2000 </span><br>
+                                <div class="button">
+                                    <a class="btn btn-primary" href="#" role="button">Apply for this job</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <section id="footer">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="./index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="./index.html"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="./index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="./index.html"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="./index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="./index.html"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center ">
+                        <p><u><a href="#">Truong Nguyen</a></u> | Email: nghtruong4212@gmail.com | Phone: 0966956176
+                        </p>
+                        <p class="h6">© All right Reversed.<a class="ml-2" href="./index.html"
+                                target="_blank">TruongNguyen</a></p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <!-- ./Footer -->
+        <script src="./frontend/jquery/jquery.min.js"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+        <script src="./frontend/js/typed.min.js"></script>
+        <script src="./frontend/js/homepage.js"></script>
+        <script>
+            animate();
+        </script>
+        <script>
+            const fixedAds = function () {
+                let adsOffSet = jQuery('.advertise img').offset();
+                let adsHeight = jQuery('.advertise img').height();
+
+                let footerOffSet = jQuery('footer').offset();
+                let footerHeight = jQuery('footer').height();
+
+                let headerHeight = jQuery('header').height();
+
+                let adsBottomOffSetTop = adsOffSet.top + adsHeight + 100;
+                let a = footerHeight + 30;
+
+                if (adsBottomOffSetTop >= footerOffSet.top) {
+                    jQuery('.advertise img').css({
+                        "bottom": a + "px",
+                        "top": "0"
+                    });
+                } else if (adsOffSet.top <= headerHeight) {
+                    jQuery('.advertise img').css({
+                        "bottom": "auto",
+                        "top": headerHeight + "px"
+                    });
+                } else {
+                    jQuery('.advertise img').css({
+                        "top": "70px",
+                        "bottom": "0"
+                    });
+                }
+            }
+            if (jQuery(window).width() > 576) {
+                jQuery(window).on('scroll', function () {
+                    fixedAds();
+                });
+            }
+        </script>
+
+
+
+</body>
+
+</html>
